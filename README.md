@@ -2,7 +2,7 @@
 
 Welcome to my personal TypeScript learning playground! This repository serves as my journey to master the fundamentals of TypeScript. It contains a collection of TypeScript code snippets, examples, and notes that I've compiled while learning the language. I hope you find it useful! 🤓
 
-## About
+## About 📝
 
 **TS-Essentials** is where I document my TypeScript learning process. As a TypeScript enthusiast, I'm committed to understanding its core concepts, writing type-safe code, and exploring advanced techniques. This repository is a reflection of my TypeScript learning adventure. 🚀
 
@@ -12,6 +12,22 @@ Here are some resources to kickstart your TypeScript journey:
 
 - **[TypeScript Handbook](https://www.typescriptlang.org/docs/handbook/intro.html)** - The official TypeScript documentation is a great place to start. It covers the basics of TypeScript and provides a solid foundation for learning the language.
 - **[TypeScript Playground](https://www.typescriptlang.org/play)** - The TypeScript Playground is an online editor for exploring TypeScript. It's a great tool for experimenting with TypeScript code.
+
+## Getting Started 🚀
+
+To get started, clone this repository and install the dependencies:
+
+```bash
+git clone "https://github.com/Rishab-Kumar-R/TS-Essentials.git"
+cd TS-Essentials/01_Intro_to_TypeScript...02_Types
+npm install
+```
+
+Then, run the TypeScript compiler in watch mode:
+
+```bash
+tsc -w
+```
 
 ## Contributions
 
