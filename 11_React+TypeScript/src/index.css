@@ -1,0 +1,135 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-family: "Open Sans", sans-serif;
+}
+
+body {
+  background-color: #151515;
+  color: #e0e0e0;
+  font-size: 16px;
+}
+
+.App {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+}
+
+h1 {
+  font-size: 2rem;
+  font-weight: 600;
+  margin: 3rem 0 1rem 0;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  padding: 2rem;
+}
+
+.todo-form {
+  width: 100%;
+  max-width: 500px;
+  height: auto;
+  padding: 2rem;
+  border-radius: 1.5rem;
+  background-color: #000000;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+}
+
+label {
+  margin-bottom: 1rem;
+  display: block;
+  font-weight: 600;
+  color: inherit;
+}
+
+input {
+  padding: 1rem;
+  margin-bottom: 1.5rem;
+  border: 2px solid transparent;
+  border-radius: 1rem;
+  background-color: #212121;
+  font-size: 1rem;
+  font-family: inherit;
+  color: inherit;
+  transition: border-color 0.3s ease-in-out;
+}
+
+input:focus {
+  outline: none;
+  border-color: #007bff;
+}
+
+.add-todo {
+  padding: 1rem;
+  border: none;
+  border-radius: 1rem;
+  background-color: #007bff;
+  color: #fff;
+  font-weight: 600;
+  margin-left: 7rem;
+  transition: background-color 0.3s ease-in-out, color 0.3s ease-in-out;
+  cursor: pointer;
+  margin-top: 1rem;
+}
+
+.add-todo:hover,
+.add-todo:focus {
+  outline: none;
+  background-color: #0056b3;
+}
+
+li {
+  width: 500px;
+  border: 2px solid transparent;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1.2rem;
+  border-radius: 1rem;
+  background-color: #000;
+  margin-bottom: 1rem;
+  transition: border 0.3s ease-in-out;
+}
+
+li:hover {
+  border: 2px solid #007bff;
+}
+
+.delete-todo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 1rem 1.5rem;
+  border: none;
+  border-radius: 1rem;
+  background-color: #dc3545;
+  color: #fff;
+  font-weight: 600;
+  transition: background-color 0.3s ease-in-out, color 0.3s ease-in-out;
+  cursor: pointer;
+  margin-left: 1rem;
+}
+
+.delete-todo:hover,
+.delete-todo:focus {
+  outline: none;
+  background-color: #b02a37;
+}
+
+::-webkit-scrollbar {
+  display: none;
+}
